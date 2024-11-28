@@ -6,7 +6,7 @@
 <div id="pano" style="width:600px; height:400px;"></div>
 
 <script>
-embedpano(
+embedpano({
     target : "tour",
     xml : "tour.xml",
     cors : false,
@@ -24,6 +24,6 @@ embedpano(
     iosfullscreen : false,
     passQueryParameters : false,
     onready : function(krpano)
-);</script>
+});</script>
 </head>
 </html>
